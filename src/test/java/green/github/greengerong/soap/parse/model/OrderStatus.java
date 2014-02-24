@@ -1,29 +1,29 @@
 package green.github.greengerong.soap.parse.model;
 
 
-public class NominationStatu {
-    private String nominationId;
-    private String agentId;
+public class OrderStatus {
+    private String orderId;
+    private String customerId;
     private String transCode;
     private String actionCode;
     private String errorCode;
     private Statue statue;
-    private String dateTime;
+    private String createBy;
 
-    public String getNominationId() {
-        return nominationId;
+    public String getOrderId() {
+        return orderId;
     }
 
-    public void setNominationId(String nominationId) {
-        this.nominationId = nominationId;
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
     }
 
-    public String getAgentId() {
-        return agentId;
+    public String getCustomerId() {
+        return customerId;
     }
 
-    public void setAgentId(String agentId) {
-        this.agentId = agentId;
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
     }
 
     public String getTransCode() {
@@ -58,12 +58,12 @@ public class NominationStatu {
         this.statue = statue;
     }
 
-    public String getDateTime() {
-        return dateTime;
+    public String getCreateBy() {
+        return createBy;
     }
 
-    public void setDateTime(String dateTime) {
-        this.dateTime = dateTime;
+    public void setCreateBy(String createBy) {
+        this.createBy = createBy;
     }
 }
 

@@ -1,0 +1,28 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header>
+
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <getOrdersHistoryResponse>
+            <orderStatuses>
+                <orderId>orderId</orderId>
+                <customerId>customerId</customerId>
+                <transCode>transCode</transCode>
+                <actionCode>actionCode</actionCode>
+                <errorCode>errorCode</errorCode>
+                <statue>None</statue>
+                <createBy>2010-12-1</createBy>
+            </orderStatuses>
+            <orderStatuses>
+                <orderId>orderId</orderId>
+                <customerId>customerId</customerId>
+                <transCode>transCode</transCode>
+                <actionCode>actionCode</actionCode>
+                <errorCode>errorCode</errorCode>
+                <statue>Open</statue>
+                <createBy>2012-1-1</createBy>
+            </orderStatuses>
+        </getOrdersHistoryResponse>
+
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

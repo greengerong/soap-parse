@@ -1,8 +1,8 @@
 package green.github.greengerong.soap.parse;
 
 
-import green.github.greengerong.soap.parse.model.GetNominationHistoryResponse;
-import green.github.greengerong.soap.parse.model.NominationStatu;
+import green.github.greengerong.soap.parse.model.GetOrdersHistoryResponse;
+import green.github.greengerong.soap.parse.model.OrderStatus;
 import green.github.greengerong.soap.parse.model.Statue;
 import org.apache.commons.io.IOUtil;
 import org.junit.Before;
@@ -27,18 +27,18 @@ public class SoapParserTest {
     @Test
     public void shouldGetNominationHistoryRes() throws IOException {
         //given
-        final InputStream stream = SoapParserTest.class.getResourceAsStream("/getNominationHistoryRes.xml");
+        final InputStream stream = SoapParserTest.class.getResourceAsStream("/GetOrdersHistoryResponse.xml");
         String xml = IOUtil.toString(stream);
         //when
-        GetNominationHistoryResponse result = soapParser.getResult(xml, GetNominationHistoryResponse.class);
+        GetOrdersHistoryResponse result = soapParser.getResult(xml, GetOrdersHistoryResponse.class);
 
         //when
-        final List<NominationStatu> nominationStatus = result.getNominationStatus();
-        assertThat(nominationStatus.size(), is(2));
-        final NominationStatu first = nominationStatus.get(0);
-        assertThat(first.getAgentId(), is("agentId"));
+        final List<OrderStatus> orderStatuses = result.getOrderStatuses();
+        assertThat(orderStatuses.size(), is(2));
+        final OrderStatus first = orderStatuses.get(0);
+        assertThat(first.getCustomerId(), is("customerId"));
         assertThat(first.getActionCode(), is("actionCode"));
-        assertThat(first.getDateTime().toString(), is("2010-12-1"));
+        assertThat(first.getCreateBy().toString(), is("2010-12-1"));
         assertThat(first.getStatue(), is(Statue.None));
     }
 }
