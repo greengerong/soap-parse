@@ -25,7 +25,7 @@ public class SoapParserTest {
     }
 
     @Test
-    public void shouldGetNominationHistoryRes() throws IOException {
+    public void shouldGetOrdersHistoryRes() throws IOException {
         //given
         final InputStream stream = SoapParserTest.class.getResourceAsStream("/GetOrdersHistoryResponse.xml");
         String xml = IOUtil.toString(stream);

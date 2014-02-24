@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2faa8812-11db-453d-856e-f40da0ef98e0" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/GetNominationHistoryResponse.java" afterPath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/GetOrdersHistoryResponse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/NominationStatu.java" afterPath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/OrderStatus.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/getNominationHistoryRes.xml" afterPath="$PROJECT_DIR$/src/test/resources/GetOrdersHistoryResponse.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soap-parse.iml" afterPath="$PROJECT_DIR$/soap-parse.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="soap-parse.iws" />
@@ -163,7 +159,7 @@
       <file leaf-file-name="SoapParserTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.72106826" vertical-offset="177" max-vertical-offset="570">
+            <state line="27" column="31" selection-start="699" selection-end="699" vertical-scroll-proportion="0.66765577" vertical-offset="0" max-vertical-offset="570">
               <folding />
             </state>
           </provider>
@@ -426,7 +422,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="green.github.greengerong.soap.parse" />
       <option name="MAIN_CLASS_NAME" value="green.github.greengerong.soap.parse.SoapParserTest" />
-      <option name="METHOD_NAME" value="shouldGetNominationHistoryRes" />
+      <option name="METHOD_NAME" value="shouldGetOrdersHistoryRes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -740,12 +736,17 @@
       <created>1393243770339</created>
       <updated>1393243770339</updated>
       <workItem from="1393243774429" duration="12025000" />
-      <workItem from="1393282600832" duration="623000" />
+      <workItem from="1393282600832" duration="682000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1393283233322</created>
+      <updated>1393283233322</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12648000" />
+    <option name="totallyTimeSpent" value="12707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1279" height="774" extended-state="6" />
@@ -793,6 +794,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -967,7 +970,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1343" selection-end="1343" vertical-scroll-proportion="0.72106826" vertical-offset="177" max-vertical-offset="570">
+        <state line="27" column="31" selection-start="699" selection-end="699" vertical-scroll-proportion="0.66765577" vertical-offset="0" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
