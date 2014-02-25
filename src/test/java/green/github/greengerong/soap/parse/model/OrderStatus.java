@@ -1,6 +1,5 @@
 package green.github.greengerong.soap.parse.model;
 
-
 public class OrderStatus {
     private String orderId;
     private String customerId;
