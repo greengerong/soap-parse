@@ -3,7 +3,7 @@
 
     </SOAP-ENV:Header>
     <SOAP-ENV:Body>
-        <getOrdersHistoryResponse>
+        <GetOrdersHistoryResponse>
             <orderStatuses>
                 <orderId>orderId</orderId>
                 <customerId>customerId</customerId>
@@ -22,7 +22,7 @@
                 <statue>Open</statue>
                 <createBy>2012-1-1</createBy>
             </orderStatuses>
-        </getOrdersHistoryResponse>
+        </GetOrdersHistoryResponse>
 
     </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

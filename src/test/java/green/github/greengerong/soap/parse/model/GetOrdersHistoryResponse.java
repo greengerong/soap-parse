@@ -4,9 +4,7 @@ package green.github.greengerong.soap.parse.model;
 import javax.xml.bind.annotation.*;
 import java.util.List;
 
-//TODO: same name, we can remove name=xxx;
-
-@XmlRootElement(name = "getOrdersHistoryResponse")
+@XmlRootElement(name = "GetOrdersHistoryResponse")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class GetOrdersHistoryResponse {
 

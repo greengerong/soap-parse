@@ -25,25 +25,18 @@ import java.io.StringWriter;
 public class SoapParser {
 
     public <T> T getResult(String xml, Class<T> type) {
-        final String soapBody = getSoapBody(xml);
+        final Node soapBody = getSoapBody(xml);
         return getInstance(soapBody, type);
     }
 
-    private String getSoapBody(String xml) {
+    private Node getSoapBody(String xml) {
         try {
             SOAPMessage message = getSoapMessage(xml);
             Node firstElement = getFirstElement(message);
-            return toXml(firstElement);
+            return firstElement;
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-    }
-
-    private String toXml(Node firstElement) throws TransformerException {
-        Transformer transformer = TransformerFactory.newInstance().newTransformer();
-        final StringWriter sw = new StringWriter();
-        transformer.transform(new DOMSource(firstElement), new StreamResult(sw));
-        return sw.toString();
     }
 
     private SOAPMessage getSoapMessage(String xml) throws SOAPException, IOException {
@@ -64,21 +57,14 @@ public class SoapParser {
         return firstElement;
     }
 
-    private <T> T getInstance(String body, Class<T> type) {
-        T instance = null;
-        final StringReader reader = new StringReader(body.trim());
+    private <T> T getInstance(Node body, Class<T> type) {
         try {
             JAXBContext jc = JAXBContext.newInstance(type);
             Unmarshaller u = jc.createUnmarshaller();
-            instance = (T) u.unmarshal(reader);
+            return (T) u.unmarshal(body);
         } catch (JAXBException e) {
             throw new RuntimeException(e);
-        } finally {
-            if (reader != null) {
-                reader.close();
-            }
         }
-        return instance;
     }
 
 }
