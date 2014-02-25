@@ -17,9 +17,15 @@
         <commons-lange.version>2.6</commons-lange.version>
         <commons-io.version>20030203.000550</commons-io.version>
         <joda.version>2.1</joda.version>
+        <guava.version>14.0.1</guava.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
         <dependency>
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>

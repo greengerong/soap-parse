@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2faa8812-11db-453d-856e-f40da0ef98e0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java" afterPath="$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soap-parse.iml" afterPath="$PROJECT_DIR$/soap-parse.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="soap-parse.iws" />
@@ -58,7 +61,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java" line="40" class="green.github.greengerong.soap.parse.SoapParserTest" package="green.github.greengerong.soap.parse">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java" line="56" class="green.github.greengerong.soap.parse.SoapParserTest" package="green.github.greengerong.soap.parse">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -87,70 +90,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="3" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="855">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="5" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XmlAdapter.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/bind/annotation/adapters/XmlAdapter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderStatus.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/OrderStatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="10" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Statue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/Statue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="64" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SoapParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="675">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetOrdersHistoryResponse.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/GetOrdersHistoryResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/String.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="28" selection-start="4853" selection-end="4853" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="3150">
+            <state line="27" column="21" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
@@ -159,7 +99,72 @@
       <file leaf-file-name="SoapParserTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="31" selection-start="699" selection-end="699" vertical-scroll-proportion="0.66765577" vertical-offset="0" max-vertical-offset="570">
+            <state line="63" column="5" selection-start="2174" selection-end="2174" vertical-scroll-proportion="0.8219585" vertical-offset="668" max-vertical-offset="1065">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SOAPMessage.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/soap/SOAPMessage.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="33" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SOAPBody.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/soap/SOAPBody.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="17" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SOAPElement.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/soap/SOAPElement.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="23" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.0" vertical-offset="728" max-vertical-offset="1065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoapParser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="35" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="1065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/org/w3c/dom/Node.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="25" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1560">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeList.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/org/w3c/dom/NodeList.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="18" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/plugin.jar!/sun/plugin/dom/core/Element.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="22" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -168,7 +173,7 @@
       <file leaf-file-name="GetOrdersHistoryResponse.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/GetOrdersHistoryResponse.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="31" selection-start="626" selection-end="626" vertical-scroll-proportion="-2.7454545" vertical-offset="89" max-vertical-offset="495">
+            <state line="4" column="19" selection-start="144" selection-end="153" vertical-scroll-proportion="-0.27272728" vertical-offset="45" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -195,18 +200,18 @@
         <option value="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/soap.xml" />
         <option value="$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/GetNominationHistoryResponse.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/Statue.java" />
         <option value="$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/DateTimeAdapter.java" />
         <option value="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/NominationStatu.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java" />
         <option value="$PROJECT_DIR$/src/test/resources/getNominationHistoryRes.xml" />
         <option value="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/GetNominationHistoryResponse.java" />
         <option value="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/GetOrdersHistoryResponse.java" />
         <option value="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/OrderStatus.java" />
         <option value="$PROJECT_DIR$/src/test/resources/GetOrdersHistoryResponse.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java" />
       </list>
     </option>
   </component>
@@ -398,11 +403,11 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="green.github.greengerong.soap.parse" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="green.github.greengerong.soap.parse.model" />
@@ -458,6 +463,40 @@
       <option name="MAIN_CLASS_NAME" value="green.github.greengerong.soap.parse.SoapParserTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SoapParserTest.shouldGetSoapBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="green.github.greengerong.soap.parse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="soap-parse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="green.github.greengerong.soap.parse" />
+      <option name="MAIN_CLASS_NAME" value="green.github.greengerong.soap.parse.SoapParserTest" />
+      <option name="METHOD_NAME" value="shouldGetSoapBody" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -697,14 +736,16 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldGetNominationHistoryRes" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SoapParserTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldGetSoapBody" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JUnit.SoapParserTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldGetNominationHistoryRes" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldGetSoapBody" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SoapParserTest.shouldGetNominationHistoryRes" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -713,6 +754,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -736,17 +782,21 @@
       <created>1393243770339</created>
       <updated>1393243770339</updated>
       <workItem from="1393243774429" duration="12025000" />
-      <workItem from="1393282600832" duration="682000" />
+      <workItem from="1393282600832" duration="4098000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1393283233322</created>
       <updated>1393283233322</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1393283290019</created>
+      <updated>1393283290019</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12707000" />
+    <option name="totallyTimeSpent" value="16123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1279" height="774" extended-state="6" />
@@ -766,7 +816,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.4995958" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.4995958" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -864,7 +914,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="49" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="750">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -878,11 +930,6 @@
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/parsers/DocumentBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="41" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/soap/SOAPMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/com/sun/xml/internal/messaging/saaj/soap/ver1_1/Message1_1Impl.class">
@@ -919,23 +966,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="3" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="5" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
@@ -954,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/GetOrdersHistoryResponse.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="626" selection-end="626" vertical-scroll-proportion="-2.7454545" vertical-offset="89" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/model/Statue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="18" selection-start="64" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -968,10 +994,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/regex/Pattern.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="455" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="10800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/transform/dom/DOMSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="26" selection-start="683" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/soap/Node.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/org/w3c/dom/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="48" selection-start="189" selection-end="189" vertical-scroll-proportion="0.1908397" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/GetOrdersHistoryResponse.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="144" selection-end="153" vertical-scroll-proportion="-0.27272728" vertical-offset="45" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/org/w3c/dom/Node.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="25" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/soap/SOAPMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="33" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/soap/SOAPBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/xml/soap/SOAPElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="23" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.0" vertical-offset="728" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="21" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/plugin.jar!/sun/plugin/dom/core/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/org/w3c/dom/NodeList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/green/github/greengerong/soap/parse/SoapParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="35" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/green/github/greengerong/soap/parse/SoapParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="699" selection-end="699" vertical-scroll-proportion="0.66765577" vertical-offset="0" max-vertical-offset="570">
-          <folding />
+        <state line="63" column="5" selection-start="2174" selection-end="2174" vertical-scroll-proportion="0.8219585" vertical-offset="668" max-vertical-offset="1065">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
